@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: graphviz-render-api
+    env: docker
+    plan: free
+    autoDeploy: true
